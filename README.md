@@ -1,34 +1,118 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+@@ -0,0 +1,123 @@
 
-## Getting Started
+<p align="center">
+  <img src="https://github.com/gabriel-nt/Ediaristas/blob/master/frontend/public/img/logos/logo.svg" alt="logo" height="50"/>
+</p>
 
-First, run the development server:
+<h1 align="center">
+    🚀 E-diaristas
+</h1>
+
+<p align="center">Aplicação desenvolvida durante evento Multi Stack</p>
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=laravel&message=8.0.0&color=orange&logo=laravel" />
+  <img src="https://img.shields.io/static/v1?label=next&message=10.0.0&color=black&logo=next.js" />
+  <img src="https://img.shields.io/static/v1?label=react%20native&message=41.0.0&color=0088CC&logo=reactos" />
+  <img src="https://img.shields.io/badge/last%20commit-june-important" />
+  <img src="https://img.shields.io/badge/license-MIT-success"/>
+</p>
+
+<p align="center">
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Lincença</a>
+</p>
+
+<h3 align="center"> 
+🚧  Finalizado  🚧
+</h3>
+
+### 📎 Features
+
+- [x] Pesquisar por diaristas cadastradas
+- [x] Cadastrar diaristas
+- [x] Editar diaristas
+- [x] Consulta automática por CEP usando GPS
+
+### 💻 Projeto
+
+E-diaristas é uma aplicação que lista as diaristas que estão perto de você. Projeto desenvolvida durante evento Multi Stack1ª Edição.
+
+### ✅ Demonstração
+
+<img src="https://github.com/gabriel-nt/Ediaristas/blob/master/frontend/public/img/app.png" />
+
+### ⚙ Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e/ou [Yarn](https://https://yarnpkg.com/)
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+- Também, precisará ter instalado o [PHP](https://www.php.net/)
+
+### 📙 Rodando o Backend
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone este repositório
+$ git clone https://github.com/gabriel-nt/Ediaristas
+# Navegue para a pasta
+$ cd backend
+# Rode as migrations
+$ php artisan migrate
+# Execute a aplicação
+$ php artisan serve
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📗 Rodando o Frontend (web)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+# Navegue para a pasta
+$ cd web
+# Instale as dependências
+$ yarn
+# Execute a aplicação
+$ yarn dev
+# Execute a aplicação de prd
+* yarn build && yarn start
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### 📘 Rodando o Mobile
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+# Navegue para a pasta
+$ cd mobile
+# Instale as dependências
+$ yarn
+# Execute a aplicação
+$ yarn start
+```
 
-## Learn More
+### 🚀 Tecnologias
 
-To learn more about Next.js, take a look at the following resources:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- NextJS
+- React Native
+- Laravel
+- Typescript
+- SqLite3
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 📕 Bibliotecas
 
-## Deploy on Vercel
+Esse projeto foi utilizou das seguintes lib:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- axios
+- react-input-mask
+- react-icons
+- material-ui
+- emotion
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 📝 Licença
+
+Esse projeto está sob a licença MIT.
+
+<hr/>
+
+README => Feito por Gabriel Teixeira https://github.com/gabriel-nt
