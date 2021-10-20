@@ -12,7 +12,18 @@ export default function Home() {
           "Preencha seu endereço e veja todos os profissionais da sua localidade"
         }
       />
-      <UserInformation />
+      <UserInformation
+        name={"Douglas Coelho"}
+        picture={"https://github.com/douglasgvr.png"}
+        rating={4}
+        description={"Volta Redonda"}
+      />
+      {/* <UserInformation
+        name={"Sabrina Coelho"}
+        picture={"https://github.com/douglasgvr"}
+        rating={4}
+        description={"Volta Redonda"}
+      /> */}
     </div>
   );
 }
