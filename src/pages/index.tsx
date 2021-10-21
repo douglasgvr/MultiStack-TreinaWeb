@@ -18,12 +18,6 @@ export default function Home() {
         rating={4}
         description={"Volta Redonda"}
       />
-      {/* <UserInformation
-        name={"Sabrina Coelho"}
-        picture={"https://github.com/douglasgvr"}
-        rating={4}
-        description={"Volta Redonda"}
-      /> */}
     </div>
   );
 }

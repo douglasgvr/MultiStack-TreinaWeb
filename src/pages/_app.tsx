@@ -3,6 +3,7 @@ import { ThemeProvider } from "@material-ui/core";
 import theme from "ui/themes/theme";
 import Head from "next/head";
 import Header from "ui/components/sufarces/Header/Header";
+import Footer from "ui/components/sufarces/Footer/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider theme={theme}>
         <Header />
         <Component {...pageProps} />
+        <Footer />
       </ThemeProvider>
     </>
   );
